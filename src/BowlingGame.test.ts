@@ -66,7 +66,7 @@ describe("BowlingGame", () => {
 
   // Test 6:
   describe("Every frame is strike, the bonus hit was also strike", () => {
-    it("should be finished in 21 rolls and gets 144 points", () => {
+    it("should be finished in 12 rolls and gets 300 points", () => {
       bowlingGame.rollTime(12, 10);
       expect(bowlingGame.score()).toEqual(300);
     });
